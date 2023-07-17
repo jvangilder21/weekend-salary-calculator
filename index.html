@@ -12,16 +12,29 @@
     <div id="employeeSalary">
         <h2>Add Employee</h2>
         <form onSubmit="submitForm(event)">
-            <input id="firstName-input" placeholder="First Name" type="text"/>
-            <input id="lasttName-input" placeholder="Last Name" type="text"/>
-            <input id="id-input" placeholder="ID Number" type="text"/>
-            <input id="title-input" placeholder="Job Title" type="text"/>
-            <input id="salary-input" placeholder="Salary Input" type="text"/>
+            <input id="firstNameInput" placeholder="First Name" type="text"/>
+            <input id="lasttNameInput" placeholder="Last Name" type="text"/>
+            <input id="idInput" placeholder="ID Number" type="string"/>
+            <input id="titleInput" placeholder="Job Title" type="text"/>
+            <input id="salaryInput" placeholder="Annual Salary Input" type="text"/>
             <br>
             <br>
             <input type="submit"/>
         </form>
     </div>
+    <table id="employeeTable">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>ID Number</th>
+                <th>Job Title</th>
+                <th>Annual Salary</th>
+                <th></th>
+            </tr>
+        </thead>
+        
+    </table>
 
     <script src="client.js"></script>
 </body>
