@@ -17,11 +17,10 @@ function submitForm(event){
     console.log('salary', salary);// this is not necessary if we use the dual log below noted for our note convenience
 
     console.log('Our values to log all in one log', firstName, lastName, idNumber, title, salary);
-/*
+
     let employeeTableUpdate = document.querySelector('#employeeTableData');
     employeeTableUpdate.innerHTML += `
-
-    <tbody id="employeeTableData">
+    <tbody">
         <tr>
             <td>${firstName}</td>
             <td>${lastName}</td>
@@ -32,7 +31,6 @@ function submitForm(event){
         </tr>
     </tbody>
     `
-    */
 }
 
 
