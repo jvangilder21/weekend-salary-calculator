@@ -7,21 +7,29 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 <body>
-    <h1>Weekend Salary Calculator</h1>
+    <header>
+        <h1>Weekend Salary Calculator</h1>
+    </header>
+    
 
-    <div>
+    <div id="content">
         <h2>Add Employee</h2>
         <form id="employeeInfoForm" onSubmit="submitForm(event)">
             <input id="firstNameInput" placeholder="First Name" type="text"/>
             <input id="lasttNameInput" placeholder="Last Name" type="text"/>
             <input id="idInput" placeholder="ID Number" type="text"/>
             <input id="titleInput" placeholder="Job Title" type="text"/>
-            <input id="salaryInput" placeholder="Annual Salary Input" type="Number"/>
+            <input id="salaryInput" placeholder="Annual Salary" type="number"/>
             <br>
             <br>
             <input type="submit"/>
         </form>
+        <br>
+        <br>
+        <br>
     </div>
+    
+    <section id="content1">
     <table id="employeeTable">
         <thead>
             <tr>
@@ -43,7 +51,7 @@
     <div id="totalMonthlyCost">
         
     </div>
-
+    </section>
     <script src="client.js"></script>
 </body>
 </html>

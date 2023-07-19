@@ -92,9 +92,6 @@ function removeRow(event){
 /*
 ## Stretch Mode
 
-Add styling or extra functionality that fits with the theme 
-of this assignment.
-
 Once the employee is deleted, update the _Total Monthly 
 Cost_ section on the page to reflect the employee's 
 removal. _HINT:_ You will need to figure out which employee 
